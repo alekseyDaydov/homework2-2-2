@@ -7,4 +7,5 @@ public class Bicycle extends Vehicle implements TyreImpl {
     public String toString() {
         return super.toString() + "Bicycle";
     }
+
 }
