@@ -1,4 +1,4 @@
-public class Truck extends Vehicle implements TyreImpl, EngineImpl, TrailerImpl {
+public class Truck extends Vehicle implements TyreImpl, EngineImpl, TrailerImpl, Checkable {
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }

@@ -1,7 +1,8 @@
 public interface Checkable {
-    public void check(Car car);
-
-    public void check(Bicycle bicycle);
-
-    public void check(Truck truck);
+    default void check(Car car) {
+    };
+    default void check(Bicycle bicycle) {
+    };
+    default void check(Truck truck) {
+    };
 }

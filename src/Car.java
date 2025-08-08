@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements TyreImpl, EngineImpl {
+public class Car extends Vehicle implements TyreImpl, EngineImpl, Checkable {
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
@@ -7,7 +7,6 @@ public class Car extends Vehicle implements TyreImpl, EngineImpl {
     public String toString() {
         return super.toString() + "Car";
     }
-
 
     public void check(Car car) {
         if (car != null) {

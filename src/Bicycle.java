@@ -1,4 +1,4 @@
-public class Bicycle extends Vehicle implements TyreImpl {
+public class Bicycle extends Vehicle implements TyreImpl, Checkable {
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
