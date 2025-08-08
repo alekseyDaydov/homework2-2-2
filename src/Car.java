@@ -18,15 +18,4 @@ public class Car extends Vehicle implements TyreImpl, EngineImpl {
             car.checkEngine();
         }
     }
-
-//    @Override
-//    public void check(Vehicle vehicle) {
-//        if (car != null) {
-//            System.out.println("Обслуживаем " + car.getModelName());
-//            for (int i = 0; i < car.getWheelsCount(); i++) {
-//                car.updateTyre();
-//            }
-//            car.checkEngine();
-//        }
-//    }
 }

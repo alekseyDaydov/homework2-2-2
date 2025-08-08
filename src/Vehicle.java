@@ -28,5 +28,4 @@ public abstract class Vehicle {
         return "Транспорт: Модель " + modelName +
                 " Количество колес " + wheelsCount;
     }
-
 }
